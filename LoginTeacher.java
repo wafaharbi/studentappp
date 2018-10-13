@@ -33,6 +33,7 @@ public class LoginTeacher extends AppCompatActivity {
         setContentView(R.layout.activity_login_teacher);
 
 
+
         studentEmail = (EditText) findViewById(R.id.editElogint);
         studentPassword = (EditText) findViewById(R.id.editPlogint);
         forget = (TextView) findViewById(R.id.textviewForgett);

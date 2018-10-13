@@ -86,6 +86,7 @@ public class LoginStudent extends AppCompatActivity {
             return;
 
         }
+
         if (email.isEmpty()) {
             studentEmail.setError(" error email");
             studentEmail.requestFocus();

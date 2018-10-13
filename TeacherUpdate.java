@@ -47,6 +47,7 @@ public class TeacherUpdate extends AppCompatActivity {
 
         studentName.setText(getIntent().getStringExtra("name"));
         studentEmail.setText(getIntent().getStringExtra("email"));
+
         studentPhone.setText(getIntent().getStringExtra("phone"));
     }
 

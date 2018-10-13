@@ -71,6 +71,7 @@ public class ParentUpadate extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
+
                     // here is update code
 
                     // ref.child("Student").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user);

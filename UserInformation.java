@@ -19,6 +19,7 @@ public class UserInformation {
 
     }
 
+
     public String getEmail() {
         return email;
     }

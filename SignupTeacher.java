@@ -87,6 +87,7 @@ public class SignupTeacher extends AppCompatActivity implements View.OnClickList
             return;
         }
 
+
         if (phone.isEmpty()) {
             studentPhone.setError(" empty");
             studentPhone.requestFocus();

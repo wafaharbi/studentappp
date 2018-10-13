@@ -66,6 +66,7 @@ public class LoginParent extends AppCompatActivity {
         final String password = studentPassword.getText().toString().trim();
 
 
+
         if (username.isEmpty()) {
             studentUsername.setError(" invalid username");
             studentUsername.requestFocus();

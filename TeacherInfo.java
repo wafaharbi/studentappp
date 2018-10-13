@@ -75,6 +75,7 @@ public class TeacherInfo extends AppCompatActivity {
 
 
 
+
     }
 
     public  void displayinfo(DataSnapshot dataSnapshot){
